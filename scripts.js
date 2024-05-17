@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
       chatInput.value = "";
 
       // Send message to backend server
-      fetch("http://your-ec2-public-dns:5000/chat", {
+      fetch("http://ec2-3-144-134-145.us-east-2.compute.amazonaws.com:5000/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
